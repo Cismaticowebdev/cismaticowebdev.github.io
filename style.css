@@ -1,0 +1,126 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    font-family: Verdana;
+    text-align: center;
+}
+
+li {
+    text-align: left;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #a7a3a3;
+}
+
+header {
+    max-width: 780px;
+    padding: 20px;
+    background-color: #989494;
+}
+
+h1, h2, h3, h4 {
+    text-shadow: #c5b5a3 2px 2px;
+}
+
+.summary {
+    text-align: justify;
+}
+
+.info {
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: self-start;
+
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.experience {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    background-color: #989494;
+}
+
+.exp-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    align-self: stretch;
+}
+
+.exp-container h3 {
+    margin-left: 40px;
+    margin-bottom: auto;
+}
+
+.exp-container h4 {
+    margin-left: 40px;
+    margin-bottom: auto;
+}
+
+.exp-container p {
+    padding: 0 20px;
+    text-align: justify;
+}
+
+.education {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.edu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.edu-container h3 {
+    margin-left: 40px;
+    margin-bottom: auto;
+}
+
+.edu-container p {
+    padding: 0 20px;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: #704d1c;
+}
+
+a:hover {
+    color: #a2702a;
+}
+
+footer {
+    padding: 10px;
+}
+
+@media (max-width: 710px) {
+    .info {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 800px) {
+    header, .experience, .education {
+        padding: 30px;
+    }
+}
